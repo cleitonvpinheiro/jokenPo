@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #2F4F4F;
+    font-weight: 700;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#stone {
+    background-color: #E0FFFF;
+    margin-right: 15px;
+}
+
+#paper{
+    background-color: #00BFFF;
+    margin-right: 15px;
+}
+
+#scissors {
+    background-color: aquamarine;
+}
+
+.your-score {
+    font-size: 25px;
+    color: #041f1f;
+    font-weight: 700;
+    
+}
+
+.a-tie {
+    font-size: 25px;
+    padding: 20px;
+    color: #041f1f;
+    font-weight: 700;
+}
+
+.machine-score {
+    font-size: 25px;
+    color: #041f1f;
+    font-weight: 700;
+}
+
+.your-score span {
+    color: #006400;
+}
+
+.machine-score span {
+    color: #800000;
+}
+
+.a-tie span {
+    color: brown;
+}
+
+.result {
+    color: black;
+    margin-top: 30px;
+    font-weight: 700 ;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 450px) { 
+  button {
+    padding: 20px;
+  }
+}
