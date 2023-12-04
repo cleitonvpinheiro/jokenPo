@@ -28,6 +28,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O jokenPo é um projeto desenvolvido juntamente com o DevClub com o intuito de apredizagem.
+O jokenPo é um projeto desenvolvido juntamente com o DevClub  com mentoria do Rodolfo Mori, com o intuito de aprender novas tecnologias.
 
 - [Acesse o projeto finalizado, online](https://cleitonvpinheiro.github.io/jokenPo/)
